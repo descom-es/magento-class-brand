@@ -1,0 +1,21 @@
+{
+  "name": "descom-es/magento-class-brand",
+  "description": "Module for Magento2 add brand to the body class.",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Cesar Garcia",
+      "email": "cesar@descom.es"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Descom\\BrandClass\\": ""
+    }
+  }
+}
